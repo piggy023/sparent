@@ -1,0 +1,50 @@
+
+.app-nav {
+    display: flex;
+    flex-direction: row;
+}
+  
+.app-nav-item  {
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    margin: 0 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: #555555;
+}
+  
+.app-nav-item.on {
+    color: #000000;
+    background-color: #F9F9FB;
+    font-weight: 500;
+}
+  
+.app-nav-item:hover {
+    background-color: #F9F9FB;
+    font-weight: 500;
+    color: #000;
+    cursor: pointer;
+}
+  
+  
+.app-search {
+    width: 140px;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+  
+.app-dropdown-overlay {
+    background-color: #ffffff;
+    padding: 20px 10px;
+    border: 1px solid #f9f9f9;
+    border-radius: 4px;
+  
+    box-shadow: 0 0 10px -2px rgb(0 0 0 / 10%);
+}
+  
+.app-dropdown:hover {
+    cursor: pointer;
+}

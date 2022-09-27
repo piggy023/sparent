@@ -1,0 +1,19 @@
+.app-myorder {
+    width: 100%;
+    height: 100%;
+    padding: 0 40px 40px 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.app-myorder-detail {
+    width: 500px;
+
+    padding: 48px;
+
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+}
